@@ -12,5 +12,5 @@ PREFIX ehri_legal_status: <http://lod.ehri-project-test.eu/legalStatuses/>
 PREFIX ehri_mandate: <http://lod.ehri-project-test.eu/mandates/>
 PREFIX ehri_activity: <http://lod.ehri-project-test.eu/activities/>
 PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-FUNCTIONS validators <scala: ShExMLTemplates/functions/Validators.scala>
-FUNCTIONS transformers <scala: ShExMLTemplates/functions/Transformers.scala>
+FUNCTIONS validators <scala: https://raw.githubusercontent.com/EHRI/ehri-kg-shexml-mapping-rules/refs/heads/main/functions/Validators.scala>
+FUNCTIONS transformers <scala: https://raw.githubusercontent.com/EHRI/ehri-kg-shexml-mapping-rules/refs/heads/main/functions/Transformers.scala>
