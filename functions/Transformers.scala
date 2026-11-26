@@ -119,4 +119,8 @@ class Transformers {
         if(isFamily(cbType)) s"ehri-families/$id"
         else s"ehri-cb/$id"
     }
+
+    def generateVocabUri(vocabularyId: String, itemId: String): String = {
+        s"$vocabularyId/$itemId"
+    }
 }

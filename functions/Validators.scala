@@ -73,4 +73,6 @@ class Validators {
         levelOfDescription == "item" ||
         levelOfDescription == "otherlevel"
     }
+
+    def greaterThanZero(value: String): Boolean = value.toFloat > 0
 }

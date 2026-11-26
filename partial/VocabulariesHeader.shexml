@@ -1,0 +1,14 @@
+PREFIX ehri: <http://lod.ehri-project-test.eu/ontology#>
+PREFIX ehri_units: <http://lod.ehri-project-test.eu/units/>
+PREFIX ehri_vocabs: <http://lod.ehri-project-test.eu/vocabularies/>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+FUNCTIONS transformers <scala: https://raw.githubusercontent.com/EHRI/ehri-kg-shexml-mapping-rules/refs/heads/develop/functions/Transformers.scala>
+FUNCTIONS validators <scala: https://raw.githubusercontent.com/EHRI/ehri-kg-shexml-mapping-rules/refs/heads/develop/functions/Validators.scala>
